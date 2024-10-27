@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Pollo Fresco</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+    <!-- Header con el menú -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li> 
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#ofertas">Ofertas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#suscripción"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de Inicio -->
+    <section id="inicio" class="section">
+        <div class="content">
+            <h1 class="titu">Agencia de pollos Sofía</h1>
+            <p>La mejor calidad en carne de pollo</p>
+            <img src="img/fondo.jpg" alt="Tienda de Pollo Fresco" class="main-img">
+        </div>
+    </section>
+
+    <!-- Sección de Productos con Galería de Imágenes -->
+    <section id="productos" class="section">
+        <h2>Nuestros Productos</h2>
+        <div class="productos-list">
+            <div class="producto">
+                <img src="img/Grande.jpg" alt="Pechuga de Pollo">
+                <h3> Pollo grande</h3>
+                <p>100% fresca y limpia</p>
+                <p>Bs 45.00</p>
+                <button onclick="mostrarAlerta1()">Ver +</button>
+                <button onclick="mostrarAlerta()" class="abc">Añadir al carrito</button>
+            </div>
+
+            <div class="producto">
+                <img src="img/mediano.jpg" alt="Alitas de Pollo">
+                <h3> Pollo Mediano</h3>
+                <p>Frescas y deliciosas</p>
+                <p>Bs 35.00</p>
+                <button onclick="mostrarAlerta2()">Ver +</button>
+                <button onclick="mostrarAlerta()" class="abc">Añadir al carrito</button>
+            </div>
+
+            <div class="producto">
+                <img src="img/pequeño.jpg" alt=" Pollo pequeño">
+                <h3> Pollo pequeño</h3>
+                <p>Perfectos para cualquier receta</p>
+                <p>Bs 28.00</p>
+                <button onclick="mostrarAlerta3()">Ver +</button>
+                <button onclick="mostrarAlerta()" class="abc">Añadir al carrito</button>
+            </div>
+        </div>
+
+        <div class="productos-list">
+            <div class="producto">
+                <img src="img/mitad.jpg" alt="Pechuga de Pollo">
+                <h3>Mitad de Pollo</h3>
+                <p>100% fresca y limpia</p>
+                <p>Bs 20.00</p>
+                <button onclick="mostrarAlerta4()">Ver +</button>
+                <button onclick="mostrarAlerta()" class="abc">Añadir al carrito</button>
+            </div>
+
+            <div class="producto">
+                <img src="img/Ala.jpg" alt="Alitas de Pollo">
+                <h3>Alita de Pollo</h3>
+                <p>Frescas y deliciosas</p>
+                <p>Bs 8.00</p>
+                <button onclick="mostrarAlerta5()">Ver +</button>
+                <button onclick="mostrarAlerta()" class="abc">Añadir al carrito</button>
+            </div>
+
+            <div class="producto">
+                <img src="img/pierna.jpg" alt="Muslos de Pollo">
+                <h3>Muslo de Pollo</h3>
+                <p>Perfectos para cualquier receta</p>
+                <p>Bs 8.00</p>
+                <button onclick="mostrarAlerta6()">Ver +</button>
+                <button onclick="mostrarAlerta()" class="abc">Añadir al carrito</button>
+            </div>
+        </div>
+
+        <div class="productos-list">
+            <div class="producto">
+                <img src="img/espalda.jpg" alt="Pechuga de Pollo">
+                <h3>Espalda de Pollo</h3>
+                <p>100% fresca y limpia</p>
+                <p>Bs 10.00</p>
+                <button onclick="mostrarAlerta7()">Ver +</button>
+                <button onclick="mostrarAlerta()" class="abc">Añadir al carrito</button>
+            </div>
+
+            <div class="producto">
+                <img src="img/pichoi.jpg" alt="Alitas de Pollo">
+                <h3>Pechuga de Pollo</h3>
+                <p>Frescas y deliciosas</p>
+                 <p>Bs 8.00</p>
+                <button onclick="mostrarAlerta8()">Ver +</button>
+                <button onclick="mostrarAlerta()" class="abc">Añadir al carrito</button>
+            </div>
+
+            <div class="producto">
+                <img src="img/menudencia.jpg" alt="Muslos de Pollo">
+                <h3>Menudencias</h3>
+                <p>Perfectos para cualquier receta</p>
+                <p>Bs 12.00</p>
+                <button onclick="mostrarAlerta9()">Ver +</button>
+                <button onclick="mostrarAlerta()" class="abc">Añadir al carrito</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Ofertas con Imágenes -->
+    <section id="ofertas" class="section">
+        <h2>Productos Varios</h2>
+        <div class="ofertas-list">
+            <div class="oferta">
+                <img src="img/coka.jpg" alt="Combo Familiar">
+                <h3>Coka Quina 3ltr.</h3>
+                <p>11bs.</p>
+            </div>
+            <div class="oferta">
+                <img src="img/chizo.jpg" alt="Venta al por mayor">
+                <h3>Chizito Familiar</h3>
+                <p>12bs.</p>
+            </div>
+        </div>
+    </section>
+
+ <!-- Sección de Ofertas con Imágenes -->
+    <section id="ofertas" class="section">
+        <div class="ofertas-list">
+            <div class="oferta">
+                <img src="img/pepsi.jpg" alt="Combo Familiar">
+                <h3>Pepsi 3ltr.</h3>
+                <p>12bs.</p>
+            </div>
+            <div class="oferta">
+                <img src="img/piposal.jpg" alt="Venta al por mayor">
+                <h3>Piposal Familiar</h3>
+                <p>12bs.</p>
+            </div>
+        </div>
+    </section>
+
+ <!-- Sección de Ofertas con Imágenes -->
+    <section id="ofertas" class="section">
+        <div class="ofertas-list">
+            <div class="oferta">
+                <img src="img/fanta.jpg" alt="Combo Familiar">
+                <h3>Fanta 3ltr.</h3>
+                <p>15bs.</p>
+            </div>
+            <div class="oferta">
+                <img src="img/galletagabriel.jpg" alt="Venta al por mayor">
+                <h3>Galletas San Gabriel</h3>
+                <p>12bs.</p>
+            </div>
+        </div>
+    </section>
+
+ <!-- Sección de Ofertas con Imágenes -->
+    <section id="ofertas" class="section">
+        <div class="ofertas-list">
+            <div class="oferta">
+                <img src="img/oro.jpg" alt="Combo Familiar">
+                <h3>Oro 3ltr.</h3>
+                <p>11bs.</p>
+            </div>
+            <div class="oferta">
+                <img src="img/galletaabuela.jpg" alt="Venta al por mayor">
+                <h3>Galletas Surtidas la Abuela</h3>
+                <p>8bs.</p>
+            </div>
+        </div>
+    </section>
+
+ <!-- Sección de Ofertas con Imágenes -->
+    <section id="ofertas" class="section">
+        <div class="ofertas-list">
+            <div class="oferta">
+                <img src="img/pura.jpg" alt="Combo Familiar">
+                <h3>Pura Vida 2ltr.</h3>
+                <p>13bs.</p>
+            </div>
+            <div class="oferta">
+                <img src="img/cream.jpg" alt="Venta al por mayor">
+                <h3>Galletas Cream Cracker</h3>
+                <p>6bs.</p>
+            </div>
+        </div>
+    </section>
+
+ <!-- Sección de Ofertas con Imágenes -->
+    <section id="ofertas" class="section">
+        <div class="ofertas-list">
+            <div class="oferta">
+                <img src="img/waferchoco.jpg" alt="Combo Familiar">
+                <h3>Wafer Chocolate.</h3>
+                <p>5bs.</p>
+            </div>
+            <div class="oferta">
+                <img src="img/waferfruti.jpg" alt="Venta al por mayor">
+                <h3>Wafer Frutilla</h3>
+                <p>5bs.</p>
+            </div>
+        </div>
+    </section>
+
+ <!-- Sección de Ofertas con Imágenes -->
+    <section id="ofertas" class="section">
+        <div class="ofertas-list">
+            <div class="oferta">
+                <img src="img/pan.jpg" alt="Combo Familiar">
+                <h3>Pan Especial San Gabriel.</h3>
+                <p>1.50bs.</p>
+            </div>
+            <div class="oferta">
+                <img src="img/perla.jpg" alt="Venta al por mayor">
+                <h3>Higenico Perlita</h3>
+                <p>4bs.</p>
+            </div>
+        </div>
+    </section>
+
+ <!-- Sección de Ofertas con Imágenes -->
+    <section id="ofertas" class="section">
+        <div class="ofertas-list">
+            <div class="oferta">
+                <img src="img/tutu.jpg" alt="Combo Familiar">
+                <h3>Pasankalla</h3>
+                <p>15bs.</p>
+            </div>
+            <div class="oferta">
+                <img src="img/leche.jpg" alt="Venta al por mayor">
+                <h3>Leche Kream</h3>
+                <p>7bs.</p>
+            </div>
+        </div>
+    </section>
+     <!-- Sección de Ofertas con Imágenes -->
+    <section id="ofertas" class="section">
+        <div class="ofertas-list">
+            <div class="oferta">
+                <img src="img/wafer.jpg" alt="Combo Familiar">
+                <h3>Wafer</h3>
+                <p>5bs.</p>
+            </div>
+            <div class="oferta">
+                <img src="img/vital.jpg" alt="Venta al por mayor">
+                <h3>Vital </h3>
+                <p>7bs.</p>
+            </div>
+        </div>
+    </section>
+
+<!-- Sección de Ofertas con Imágenes -->
+    <section id="ofertas" class="section">
+<h2>Ubicación</h2>
+        <div class="ofertas-list">
+            <div class="oferta">
+                <img src="img/ubi.jpg" alt="Combo Familiar">
+                
+            </div>
+            <div class="oferta">
+                <img src="img/he.jpg" alt="Venta al por mayor">
+               
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="section">
+        <h2>Contáctanos</h2>
+        <form id="formContacto">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="correo">Correo:</label>
+            <input type="email" id="correo" name="correo" required>
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Sección de Suscripción -->
+    <section id="suscripcion" class="section">
+        <h2>Suscríbete a nuestras ofertas</h2>
+        <form id="formSuscripcion">
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Suscribirse</button>
+        </form>
+    </section>
+
+     <script src="script.js"></script>
+
+</body>
+</html>

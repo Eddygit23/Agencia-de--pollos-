@@ -1,0 +1,171 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilo del menú */
+header {
+    background-color: #ff8c00;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+#carrito-btn{
+ background:black;
+}
+
+#carrito-btn:hover{
+ background:white;
+ color:blue;
+}
+
+.producto .abc{
+ background:black;
+}
+
+
+/* Secciones */
+.section {
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 10px;
+    border-radius: 30px;
+}
+
+.section:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+h1 {
+    color:orange;
+    font-size:4rem;
+    font-weight:700;
+    text-align:center;
+    text-shadow:4px 4px black;
+    font-family:AR DELANEY;
+    margin-top:-30px;
+}
+
+h2 {
+    color: #ff8c00;
+}
+
+.productos-list, .ofertas-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.producto, .oferta {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease; /* Transición suave para la animación */
+}
+
+/* Efecto de zoom en imágenes al pasar el cursor */
+.producto img, .oferta img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease; /* Transición suave para la imagen */
+}
+
+.producto:hover, .oferta:hover {
+    transform: scale(1.05); /* Agrandar la tarjeta completa en hover */
+}
+
+.producto img:hover, .oferta img:hover {
+    transform: scale(1.1); /* Agrandar solo la imagen en hover */
+}
+
+button {
+    background-color: #ff8c00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff6600;
+}
+
+/* Formulario de contacto */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    width: 300px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    margin-top: 20px;
+}
+
+/* Imagen principal */
+.main-img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease; /* Añadido para el efecto hover */
+}
+
+.main-img:hover {
+    transform: scale(1.05); /* Agrandar la imagen principal en hover */
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .productos-list, .ofertas-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .producto, .oferta {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
